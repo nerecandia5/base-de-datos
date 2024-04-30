@@ -18,3 +18,5 @@ Ejercicio 4-
  SELECT p.name as nombre, i.transcript
  FROM interview i join person p on i.person_id = p.id
  WHERE nombre like 'Annabel Miller'
+
+ 

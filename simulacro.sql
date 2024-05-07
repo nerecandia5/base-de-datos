@@ -26,3 +26,39 @@ SELECT country, COUNT(CITY) AS city_count
 FROM customer_list
 GROUP BY country
 HAVING COUNT(CITY) > 2
+
+Ejercicio 7
+
+
+
+
+
+
+
+
+
+
+Ejercicio 8
+
+
+
+
+
+
+
+
+
+
+ Ejercicio 9 
+
+
+
+
+
+
+
+
+
+
+ Ejercicio 10
+

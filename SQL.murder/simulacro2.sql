@@ -36,7 +36,8 @@ ORDER BY Salario DESC
 
 6. Mostrar la cantidad total de países que hay por región, descartando los que tengan 5 o menos.
 SELECT count (c.country_name) AS Paises,r.region_name AS Regiones
-FROM countries C JOIN regions r ON R.region_id = C.region_id
+FROM countries C 
+JOIN regions r ON R.region_id = C.region_id
 GROUP BY c.region_id
 ORDER BY Regiones,Paises
 

@@ -1,0 +1,1 @@
+SELECT min(age),max(age),avg(age) from  drivers_license WHERE gender = 'male'
